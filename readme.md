@@ -1,28 +1,39 @@
 <div align="center">
 
 # Curriculum Vitae (CV)
-![Groff](https://img.shields.io/badge/groff-%23ED8B00.svg?style=for-the-badge)
-![Groff](https://img.shields.io/badge/troff-%23ED8B00.svg?style=for-the-badge)
-![Acessos](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frenatonunes74%2Fcurriculum_vitae&label=A%20C%20E%20S%20S%20O%20S&labelColor=%2320232a&countColor=%2320232a&labelStyle=upper)
 
-[Sobre](#sobre) •
-[Depedencias]($depedencias) •
-[Como usar](#execução) •
-[Funcionalidades](#funcionalidades) •
-[Organização do Projeto](#organização-do-projeto)
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+
+<img alt="Repository size" src="https://img.shields.io/github/repo-size/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+<a href="https://github.com/renatonunes74/curriculum_vitae/commits/master">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+</a>
+
+<a href="https://github.com/renatonunes74/curriculum_vitae/issues">
+<img alt="Repository issues" src="https://img.shields.io/github/issues/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+</a>
+
+<img alt="GitHub" src="https://img.shields.io/github/license/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+
+  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#organização-do-projeto">Organização do Projeto</a>
+
+  <h4>Curriculum Vitae feito em Groff, com base no modelo do <a href="https://github.com/wlcsm/resume">wlcsm</a> e em boas práticas</h4>
+</p>
 </div>
 
 # Sobre
-Curriculum Vitae feito em Groff, com base no modelo do [wlcsm](https://github.com/wlcsm/resume) e em boas práticas
 - Simples
 - Legível
-- Palavras-Chaves
+- Palavras-chaves
 
 <div align="center"> 
-<img src="https://github.com/renatonunes74/curriculum_vitae/blob/main/assets/curriculo_2.png" width=60%>
+<img src="./assets/curriculo_2.png" width=60%>
 </div>
 
-# Depedencias
+# Dependências
 - Groff
 
 # Como usar
@@ -34,14 +45,18 @@ Curriculum Vitae feito em Groff, com base no modelo do [wlcsm](https://github.co
     - `groff -ktesp curriculo.ms -Tpdf > curriculo.pdf`
 
 # Funcionalidades
-O arquivo utilza de macros disponíveis no Troff
+O arquivo utiliza de macros disponíveis no Troff
 - Como:
   - `.ds NOME Seu nome`
   - `.ds EMAIL Seu@email.com`
   - etc...
 
 # Organização do Projeto
-- `curriculo.ms` -> template do curriculo
-- `curriculo.pdf` -> saída PDF do curriculo
-- `macro.tmac` -> local de macros
-- `assets/curriculo.png` -> opcional (gerado via imagemagick)
+- `curriculo.ms`
+    - template do currículo
+- `curriculo.pdf`
+    - saída PDF do currículo
+- `macro.tmac`
+    - local de macros
+- `assets/curriculo.png`
+    - opcional (gerado via `imagemagick`)
