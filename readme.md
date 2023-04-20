@@ -19,11 +19,18 @@ Criado com base nas boas práticas
 - Legível
 - Palavras-Chaves
 
-#📽 Execução
+# 📑 Funcionalidades
+O arquivo utilza de macros disponíveis no Troff
+- Como:
+  - `.ds NOME Seu nome`
+  - `.ds EMAIL Seu@email.com`
+  - etc...
+
+# 📽 Execução
 ```shell
 groff -ktesp curriculo.ms -Tpdf > curriculo.pdf
 ```
 
-#📏 Organização do Projeto
+# 📏 Organização do Projeto
 `curriculo.ms` -> template do curriculo
 `curriculo.pdf` -> saída PDF do curriculo
