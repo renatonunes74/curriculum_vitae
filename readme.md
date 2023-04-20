@@ -7,15 +7,13 @@
 
 [Sobre](#sobre) •
 [Depedencias]($depedencias) •
-[📑 Funcionalidades](#-funcionalidades) •
-[📽 Como usar](#-execução) •
-[📏 Organização do Projeto](#-organização-do-projeto)
+[Como usar](#execução) •
+[Funcionalidades](#funcionalidades) •
+[Organização do Projeto](#organização-do-projeto)
 </div>
 
 # Sobre
-Curriculum Vitae feito em Groff, com base no modelo do [wlcsm](https://github.com/wlcsm/resume) e modificado a gosto.
-
-Criado com base nas boas práticas
+Curriculum Vitae feito em Groff, com base no modelo do [wlcsm](https://github.com/wlcsm/resume) e em boas práticas
 - Simples
 - Legível
 - Palavras-Chaves
@@ -27,14 +25,7 @@ Criado com base nas boas práticas
 # Depedencias
 - Groff
 
-# 📑 Funcionalidades
-O arquivo utilza de macros disponíveis no Troff
-- Como:
-  - `.ds NOME Seu nome`
-  - `.ds EMAIL Seu@email.com`
-  - etc...
-
-# 📽 Como usar
+# Como usar
 - Clone o repositório
     - `git clone https://github.com/renatonunes74`
 - Entre na pasta
@@ -42,6 +33,15 @@ O arquivo utilza de macros disponíveis no Troff
 - Compile o arquivo usando o Groff
     - `groff -ktesp curriculo.ms -Tpdf > curriculo.pdf`
 
-# 📏 Organização do Projeto
+# Funcionalidades
+O arquivo utilza de macros disponíveis no Troff
+- Como:
+  - `.ds NOME Seu nome`
+  - `.ds EMAIL Seu@email.com`
+  - etc...
+
+# Organização do Projeto
 - `curriculo.ms` -> template do curriculo
 - `curriculo.pdf` -> saída PDF do curriculo
+- `macro.tmac` -> local de macros
+- `assets/curriculo.png` -> opcional (gerado via imagemagick)
