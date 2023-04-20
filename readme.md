@@ -3,12 +3,9 @@
 # Curriculum Vitae (CV)
 
 <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
-
 <img alt="Repository size" src="https://img.shields.io/github/repo-size/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
 <a href="https://github.com/renatonunes74/curriculum_vitae/commits/master">
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
-</a>
-
 <a href="https://github.com/renatonunes74/curriculum_vitae/issues">
 <img alt="Repository issues" src="https://img.shields.io/github/issues/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
 </a>
