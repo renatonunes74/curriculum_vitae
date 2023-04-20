@@ -12,15 +12,13 @@
 <a href="https://github.com/renatonunes74/curriculum_vitae/issues">
 <img alt="Repository issues" src="https://img.shields.io/github/issues/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
 </a>
-
 <img alt="GitHub" src="https://img.shields.io/github/license/renatonunes74/curriculum_vitae.svg?style=for-the-badge">
+<h4>Curriculum Vitae feito em Groff, com base no modelo do <a href="https://github.com/wlcsm/resume">wlcsm</a> e em boas práticas</h4>
+<a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="#organização-do-projeto">Organização do Projeto</a>
 
-  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#funcionalidades">Funcionalidades</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#organização-do-projeto">Organização do Projeto</a>
-
-  <h4>Curriculum Vitae feito em Groff, com base no modelo do <a href="https://github.com/wlcsm/resume">wlcsm</a> e em boas práticas</h4>
 </p>
 </div>
 
