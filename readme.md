@@ -20,7 +20,9 @@ Criado com base nas boas práticas
 - Legível
 - Palavras-Chaves
 
-![Curriculo](https://github.com/renatonunes74/curriculum_vitae/curriculo_2.png)
+<div align="center"> 
+<img src="https://github.com/renatonunes74/curriculum_vitae/blob/main/assets/curriculo_2.png" width=60%>
+</div>
 
 # Depedencias
 - Groff
