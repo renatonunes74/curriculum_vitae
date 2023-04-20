@@ -1,26 +1,29 @@
----
-nome: teste
----
+<div align="center">
 
+# Curriculo
+![Groff](https://img.shields.io/badge/groff-%23ED8B00.svg?style=for-the-badge)
+![Groff](https://img.shields.io/badge/troff-%23ED8B00.svg?style=for-the-badge)
+![Acessos](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Frenatonunes74%2Fcurriculum_vitae&label=A%20C%20E%20S%20S%20O%20S&labelColor=%2320232a&countColor=%2320232a&labelStyle=upper)
 
-<img src="https://github.com/renatonunes74/curriculum_vitae/blob/main/curriculo_2.pdf">
+[Sobre](#sobre) •
+[📑 Funcionalidades](#-funcionalidades) •
+[📽 Execução](#-execução) •
+[📏 Organização do Projeto](#-organização-do-projeto)
+</div>
 
-[ars](https://github.com/renatonunes74/curriculum_vitae/blob/main/curriculo_2.pdf)
+# Sobre
+Curriculum Vitae feito em Groff, com base no modelo do [wlcsm](https://github.com/wlcsm/resume) e modificado a gosto.
 
-<object data="https://github.com/renatonunes74/curriculum_vitae/blob/main/curriculo_2.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="https://github.com/renatonunes74/curriculum_vitae/blob/main/curriculo_2.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="http://yoursite.com/the.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+Criado com base nas boas práticas
+- Simples
+- Legível
+- Palavras-Chaves
 
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>PDF Example</title>
-  </head>
-  <body>
-    <embed src="https://github.com/renatonunes74/curriculum_vitae/blob/main/curriculo_2.pdf" width="100%" height="100%" type='application/pdf'>
-  </body>
-</html>
+#📽 Execução
+```shell
+groff -ktesp curriculo.ms -Tpdf > curriculo.pdf
+```
 
-{{% nome %}}
+#📏 Organização do Projeto
+`curriculo.ms` -> template do curriculo
+`curriculo.pdf` -> saída PDF do curriculo
