@@ -1,5 +1,4 @@
 <div align="center">
-arsars
 
 # Curriculum Vitae (CV)
 
