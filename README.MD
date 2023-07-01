@@ -25,7 +25,7 @@
 - Palavras-chaves
 
 <div align="center"> 
-<img src="./assets/curriculo_2.png" width=60%>
+<img src="./assets/CV_Renato_Nunes.png" width=60%>
 </div>
 
 # Dependências
