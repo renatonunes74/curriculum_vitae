@@ -35,7 +35,7 @@ Banco de dados:; MySQL, H2
 Arquitetura:; MVC, Caso de Uso, Diagrama de Classes / Atividades, EAP, PlantUML, Mermaid
 Versionamento:; Git, GitHub, GitFlow, Conventional Commits (Git semântico) 
 Habilidades:; SCRUM, CRUD, KANBAN
-Extras:; Linux, npm, yarn, VIM, Nix, Markdown, GNU Groff
+Extras:; Linux, Material UI, Jq, npm, yarn, VIM, Nix, Markdown, GNU Groff
 .TE
 .mk
 .po 4.6i
@@ -48,7 +48,7 @@ Extras:; Linux, npm, yarn, VIM, Nix, Markdown, GNU Groff
 Abr. 2023 - Jun. 2023
 .DE
 .LP
-Aplicação de e-commerce de produtos orgânicos que são vendidos por agricultores locais a pessoas da periferia;
+Aplicação realizada em equipe, e-commerce de produtos orgânicos que são vendidos por agricultores locais a pessoas da periferia;
 .TS
 left tab(;);
 lb ll.
@@ -62,7 +62,7 @@ Front-End:; React, TypeScript
 Mar. 2023 - Abr. 2023
 .DE
 .LP
-Aplicação Java desenvolvido para facilitar a doação de doadores por ONGs próximas;
+Aplicação realizada em equipe, feito em Java usando POO, desenvolvido para facilitar a doação de doadores por ONGs próximas;
 .TS
 left tab(;);
 lb ll.
@@ -100,8 +100,7 @@ Front-End:; Browser Toolbox Mode, CSS
 .nr LL 4.0i
 .section EXPERIÊNCIAS
 .item "LIFS Usinagem" "Operador de Máquinas" "Jul, 2022 - Fev, 2023" "São Paulo, SP"
-.list Operaçäo de Torno CNC
-.list Operação de máquinas manuais
+Operador de Máquina com utilização de conhecimento em programação CNC, habilidade em leitura de desenhos técnicos e atenção com a segurança no local de trabalho para garantir um ambiente de trabalho seguro e saudável.
 .section FORMAÇÕES
 .item "Generation Brasil" "Desenvolvedor Java Full Stack Júnior" "Mar. 2023 - Jun. 2023" "Remoto"
 .LP
